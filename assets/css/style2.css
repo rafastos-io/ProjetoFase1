@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'ubuntu', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem ;
+    background: linear-gradient(152deg, #1E2022 0%, #0A0A0A 100%);
+    
+}
+footer{
+    height: 64px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.cabecalho{
+    font-family: 'ubuntu';
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between; /* Distribui os itens entre os extremos */
+    align-items: center;
+}
+
+.menu li{
+    display: inline;
+    padding-right: 24px;
+}
+
+.logo{
+    padding: 24px;
+}
+
+.dobra1{
+    font-family: 'ubuntu';
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.dobra2{
+    font-family: 'ubuntu';
+    padding-top: 64px;
+    padding-bottom: 32px;
+    display:flex;
+    gap: 64px;
+    justify-content: center;
+    justify-items: center;
+}
+.dobra3{
+    font-family: 'ubuntu';
+    padding-top: 32px;
+    padding-bottom: 64px;
+    display:flex;
+    gap: 64px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card{
+    background-color: #363738;
+    border-radius: 16px;
+
+}
+.cardtext{
+    padding: 12px;
+    
+}
+
+.dobra1h1{
+    font-size: 88px;
+    font-weight: 600;
+}
+
+.dobra1h2{
+    font-size: 32px;
+    font-weight: 400;
+    background-color: #ed145b;
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 12px 0px 12px 0px;
+}
+.dobra1p{
+    font-size: 24px;
+}
+
+.cardtexth1{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.cardtexth2{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ed145b;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 12px 0px 12px 0px;
+}
+
+.footerh1{
+    padding-top: 32px;
+}
